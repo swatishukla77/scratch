@@ -39,18 +39,21 @@
     },
     "jumpboxEndpointDNSNamePrefix": {
       "type": "string",
+       "defaultValue": "c1jmp",
       "metadata": {
         "description": "Sets the Domain name label for the jumpbox.  The concatenation of the domain name label and the regionalized DNS zone make up the fully qualified domain name associated with the public IP address."
       }
     },
     "masterEndpointDNSNamePrefix": {
       "type": "string",
+       "defaultValue": "c1m",
       "metadata": {
         "description": "Sets the Domain name label for the master IP Address.  The concatenation of the domain name label and the regional DNS zone make up the fully qualified domain name associated with the public IP address."
       }
     },
     "agentEndpointDNSNamePrefix": {
       "type": "string",
+       "defaultValue": "c1a",
       "metadata": {
         "description": "Sets the Domain name label for the agent pool IP Address.  The concatenation of the domain name label and the regional DNS zone make up the fully qualified domain name associated with the public IP address."
       }
@@ -153,7 +156,7 @@
     },
     "disablePasswordAuthentication": {
       "type": "bool",
-      "defaultValue": true,
+      "defaultValue": false,
       "metadata": {
         "description": "This setting controls whether password auth is disabled for Linux VMs provisioned by this template. Default is true which disables password and makes SSH key required."
       }
