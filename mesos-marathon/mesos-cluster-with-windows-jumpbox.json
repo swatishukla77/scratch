@@ -110,35 +110,35 @@
     },
     "linuxSku": {
       "type": "string",
-      "defaultValue": "14.04.3-LTS",
+      "defaultValue": "14.04.2-LTS",
       "metadata": {
         "description": "This is the linux sku used by the linux cluster"
       }
     },
     "linuxVersion": {
       "type": "string",
-      "defaultValue": "latest",
+      "defaultValue": "1.0.0",
       "metadata": {
         "description": "This is the linux version used by the linux cluster"
       }
     },
     "windowsJumpboxPublisher": {
       "type": "string",
-      "defaultValue": "MicrosoftVisualStudio",
+      "defaultValue": "MicrosoftWindowsServer",
       "metadata": {
         "description": "This is the windows publisher used by the windows jumpbox"
       }
     },
     "windowsJumpboxOffer": {
       "type": "string",
-      "defaultValue": "VisualStudio",
+      "defaultValue": "WindowsServer",
       "metadata": {
         "description": "This is the windows offer used by the windows jumpbox"
       }
     },
     "windowsJumpboxSku": {
       "type": "string",
-      "defaultValue": "VS-2015-Enterprise-AzureSDK-2.7-WS2012R2",
+      "defaultValue": "2012-R2-Datacenter",
       "metadata": {
         "description": "This is the windows sku used by the windows jumpbox"
       }
